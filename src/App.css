@@ -1,38 +1,45 @@
-.App {
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: #efe9e7;
+}
+
+.app {
+  background-image: url("https://assets.rpgsite.net/images/images/000/081/608/original/Monster-Hunter-World-Iceborne_Guiding-Lands-Forest-Region.jpg");
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: #efe9e7;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  height: 4em;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background-color: #3c5455c7;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-bottom: 1px solid black;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+  height: 4em;
+  text-align: center;
+  background-color: #3c5455c7;
+  align-items: center;
+  border-top: 1px solid black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  margin: 0;
+  padding-top: 0.3em;
 }
