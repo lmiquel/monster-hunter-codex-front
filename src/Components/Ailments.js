@@ -29,9 +29,9 @@ const Ailments = (props) => {
   console.log(ailments);
 
   return (
-    <div className='caracteristics' key={ailments.id}>
+    <div className="caracteristics" key={ailments.id}>
       <h2>FLÉAUX</h2>
-      <div className='element-list-container'>
+      <div className="element-list-container">
         <div className="list">
           <img className="icons" src={poison} alt="poison" />
           <p className="element-list">POISON {ailments.poison}</p>

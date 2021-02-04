@@ -31,7 +31,7 @@ const Elements = (props) => {
   return (
     <div className="caracteristics" key={elements.id}>
       <h2>ÉLÉMENTS</h2>
-      <div className='element-list-container'>
+      <div className="element-list-container">
         <div className="list">
           <img className="icons" src={fire} alt="fire" />
           <p className="element-list">FEU {elements.fire}</p>

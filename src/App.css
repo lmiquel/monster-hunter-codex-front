@@ -11,6 +11,7 @@ body {
   padding: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  min-height: 100vh;
 }
 
 a {
@@ -39,7 +40,11 @@ h2 {
   border-top: 1px solid black;
 }
 
-h1 {
+.navbar h1 {
   margin: 0;
   padding-top: 0.3em;
+}
+
+.navbar p {
+  float: right;
 }
