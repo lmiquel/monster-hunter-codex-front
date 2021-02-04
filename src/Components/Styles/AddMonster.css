@@ -1,0 +1,75 @@
+.form-container {
+  width: 70%;
+  margin: 2em auto;
+  background: linear-gradient(#d5b385c7, #534232f7);
+  border-radius: 2.5%;
+  box-shadow: 10px 10px 15px #1a1a1a;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
+.input-text {
+  width: 60%;
+  margin: 1.4em;
+  border-radius: 0.6em;
+  height: 2em;
+}
+
+.checkbox-container {
+  margin: 1.4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-row: 3;
+  grid-column: 1/3;
+}
+
+.box-elements {
+  grid-column: 1;
+  grid-row: 2;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-ailments {
+  grid-column: 2;
+  grid-row: 2;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container h2 {
+  text-align: center;
+  min-height: 4em;
+  font-weight: 400;
+}
+
+.box-identity-monster {
+  grid-column: 1/3;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submit-form {
+  font-size: 1.4em;
+  width: 25%;
+  margin: 2em;
+  text-align: center;
+  font-style: italic;
+  border-radius: 0.6em;
+  opacity: 0.8;
+  background-color: #98abaf;
+}
+
+.submit-container {
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+}

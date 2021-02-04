@@ -1,10 +1,11 @@
 import React from "react";
+import './Styles/Admin.css';
 
 const Admin = () => {
   return (
-    <div>
+    <div className='admin-container'>
       <a href="/admin/add-monster">
-        <button>Ajouter un monstre</button>
+        <button className='button-admin'>Ajouter un monstre</button>
       </a>
     </div>
   );

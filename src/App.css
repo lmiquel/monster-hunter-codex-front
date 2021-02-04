@@ -1,11 +1,8 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-  color: #efe9e7;
+.app {
+  min-height: 100vh;
 }
 
-.app {
+html, body {
   background-image: url("https://assets.rpgsite.net/images/images/000/081/608/original/Monster-Hunter-World-Iceborne_Guiding-Lands-Forest-Region.jpg");
   margin: 0;
   padding: 0;
@@ -16,7 +13,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #efe9e7;
+  color: black;
 }
 
 h2 {
