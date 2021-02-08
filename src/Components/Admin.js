@@ -7,6 +7,9 @@ const Admin = () => {
       <a href="/admin/add-monster">
         <button className='button-admin'>Ajouter un monstre</button>
       </a>
+      <a href="/admin/delete-monster">
+        <button className='button-admin'>Supprimer un monstre</button>
+      </a>
     </div>
   );
 };

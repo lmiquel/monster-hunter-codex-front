@@ -5,6 +5,8 @@ import MonstersList from "./Components/MonstersList.js";
 import Monster from "./Components/Monster.js";
 import Admin from "./Components/Admin.js";
 import AddMonster from "./Components/AddMonster.js";
+import DeleteMonster from "./Components/DeleteMonster.js";
+import ShowLocations from "./Components/ShowLocations.js";
 import Navbar from "./Components/Navbar.js";
 import Footer from "./Components/Footer.js";
 
@@ -27,6 +29,13 @@ class App extends React.Component {
               </Route>
               <Route exact path="/admin/add-monster">
                 <AddMonster />
+              </Route>
+              <Route
+                path="/admin/add-locations/:monsterName"
+                component={ShowLocations}
+              />
+              <Route exact path="/admin/delete-monster">
+                <DeleteMonster />
               </Route>
             </Switch>
           </Router>

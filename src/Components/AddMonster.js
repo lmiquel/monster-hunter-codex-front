@@ -58,6 +58,7 @@ class AddMonster extends Component {
         }
         console.log(err.config);
       });
+    alert(`${this.state.name} a bien été enregistré !`);
   };
 
   render() {
@@ -79,7 +80,7 @@ class AddMonster extends Component {
     return (
       <div>
         <form className="form-container" onSubmit={this.handleSubmit}>
-          <div className='box-identity-monster'>
+          <div className="box-identity-monster">
             <input
               className="input-text"
               type="text"
@@ -209,10 +210,13 @@ class AddMonster extends Component {
             />
             <label>Cochez cette case si sa queue peut être coupée</label>
           </div>
-          <div className='submit-container'>
+          <div className="submit-container">
             <input className="submit-form" type="submit" value="Valider" />
           </div>
         </form>
+        <a href={`http://localhost:3000/admin/add-locations/${name}`}>
+          <button className="next">Suivant</button>
+        </a>
       </div>
     );
   }

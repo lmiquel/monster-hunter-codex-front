@@ -24,6 +24,7 @@
 }
 
 .monster-img-container {
+  min-width: 480px;
   display: flex;
   justify-content: center;
 }
@@ -69,4 +70,8 @@
   border-radius: 0.6em;
   opacity: 0.8;
   background-color: #98abaf;
+}
+
+input:hover {
+  cursor: pointer;
 }
