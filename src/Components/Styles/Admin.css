@@ -1,0 +1,21 @@
+.button-admin {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    border-radius: 0.4em;
+    opacity: 0.8;
+    background-color: #98aba2;
+}
+
+.admin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}

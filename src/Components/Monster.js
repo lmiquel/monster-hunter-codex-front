@@ -43,7 +43,7 @@ const Monster = ({ match }) => {
           <Ailments id={id} />
         </div>
         <Locations id={id} />
-        <p className='tail'>
+        <p className="tail">
           Possibilité de couper la queue :{" "}
           {monster.severable_tail === 0 ? "NON" : "OUI"}
         </p>

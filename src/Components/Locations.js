@@ -23,11 +23,11 @@ const Locations = (props) => {
   console.log(locations);
 
   return (
-    <div className='locations-container'>
+    <div className="locations-container">
       <h2>HABITAT</h2>
       {locations.map((location) => (
         <div key={location.id}>
-          <p className='place'>{location.name}</p>
+          <p className="place">{location.name}</p>
         </div>
       ))}
     </div>
