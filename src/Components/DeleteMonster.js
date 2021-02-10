@@ -3,7 +3,7 @@ import axios from "axios";
 
 import "./Styles/MonstersList.css";
 
-const MonstersList = () => {
+const DeleteMonsters = () => {
   const [monstersToDelete, getMonstersToDelete] = useState([]);
   const [specificMonsterToDelete, getSpecificMonsterToDelete] = useState("");
 
@@ -31,6 +31,7 @@ const MonstersList = () => {
 
   return (
     <div>
+      <h1 className="center">Supprimer un monstre</h1>
       <div className="input-container">
         <input
           className="search-input"
@@ -79,4 +80,4 @@ const MonstersList = () => {
   );
 };
 
-export default MonstersList;
+export default DeleteMonsters;

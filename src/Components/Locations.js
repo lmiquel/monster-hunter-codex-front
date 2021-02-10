@@ -20,8 +20,6 @@ const Locations = (props) => {
     getDataLocations();
   }, []);
 
-  console.log(locations);
-
   return (
     <div className="locations-container">
       <h2>HABITAT</h2>

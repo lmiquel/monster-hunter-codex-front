@@ -14,6 +14,7 @@ html, body {
 a {
   text-decoration: none;
   color: black;
+  cursor:auto
 }
 
 h2 {
@@ -40,8 +41,13 @@ h2 {
 .navbar h1 {
   margin: 0;
   padding-top: 0.3em;
+  cursor: pointer;
 }
 
 .navbar p {
   float: right;
+}
+
+button:hover {
+  cursor: pointer;
 }
