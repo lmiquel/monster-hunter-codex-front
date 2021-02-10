@@ -25,8 +25,6 @@ const Monster = ({ match }) => {
     getData();
   }, []);
 
-  console.log(monster);
-
   return (
     <div className="monster-container" key={monster.id}>
       <div className="img-container">

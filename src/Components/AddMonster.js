@@ -40,7 +40,6 @@ class AddMonster extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    console.log(this.state);
     axios
       .post(`http://localhost:5000/api/post/new-monster`, this.state)
       .then((res) => {
@@ -214,9 +213,11 @@ class AddMonster extends Component {
             <input className="submit-form" type="submit" value="Valider" />
           </div>
         </form>
-        <a href={`http://localhost:3000/admin/add-locations/${name}`}>
-          <button className="next">Suivant</button>
-        </a>
+        <div className="next-container">
+          <a href={`http://localhost:3000/admin/add-locations/${name}`}>
+            <button className="next">Suivant</button>
+          </a>
+        </div>
       </div>
     );
   }

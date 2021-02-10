@@ -26,8 +26,6 @@ const Ailments = (props) => {
     getDataAilments();
   }, []);
 
-  console.log(ailments);
-
   return (
     <div className="caracteristics" key={ailments.id}>
       <h2>FLÉAUX</h2>

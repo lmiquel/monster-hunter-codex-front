@@ -26,8 +26,6 @@ const Elements = (props) => {
     getDataElements();
   }, []);
 
-  console.log(elements);
-
   return (
     <div className="caracteristics" key={elements.id}>
       <h2>ÉLÉMENTS</h2>

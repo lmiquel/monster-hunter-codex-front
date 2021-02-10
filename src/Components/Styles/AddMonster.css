@@ -16,6 +16,10 @@
   height: 2em;
 }
 
+.input-text:hover {
+  cursor:text;
+}
+
 .checkbox-container {
   margin: 1.4em;
   display: flex;
@@ -74,11 +78,16 @@
   justify-content: center;
 }
 
+.next-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+}
+
 .next {
   font-size: 1.4em;
-  width: 15%;
-  margin: 0 2em;
-  float: right;
+  width: 200%;
+  margin: 2em auto;
   text-align: center;
   font-style: italic;
   border-radius: 0.6em;
