@@ -6,6 +6,7 @@ import Monster from "./Components/Monster.js";
 import Admin from "./Components/Admin.js";
 import AddMonster from "./Components/AddMonster.js";
 import DeleteMonster from "./Components/DeleteMonster.js";
+import MonsterToModify from "./Components/MonsterToModify.js";
 import ShowLocations from "./Components/ShowLocations.js";
 import Navbar from "./Components/Navbar.js";
 import Footer from "./Components/Footer.js";
@@ -37,6 +38,10 @@ class App extends React.Component {
               <Route exact path="/admin/delete-monster">
                 <DeleteMonster />
               </Route>
+              <Route
+                path="/admin/modify-monster/:monsterId"
+                component={MonsterToModify}
+              />
             </Switch>
           </Router>
         </div>

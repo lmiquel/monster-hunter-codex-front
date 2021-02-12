@@ -1,2 +1,5 @@
-# monster-hunter-codex-front
-Monster Hunter Codex mini app (Checkpoint 4 WCS)
+# Monster Hunter Codex
+## Mini app for the 4th checkpoint (Wild Code School)
+
+------------------
+
